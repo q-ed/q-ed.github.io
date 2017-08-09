@@ -1682,7 +1682,7 @@ ol.toc {
   border-top: 1px solid #222;
   color: #bbb;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 #footer .outer {
   margin-bottom: 0;
@@ -1694,9 +1694,14 @@ ol.toc {
 #footer a:hover {
   text-decoration: underline;
 }
+#footer img {
+  width: 16px;
+  margin: 1px;
+}
 #footer-info {
   line-height: 1.6em;
   font-size: 0.85em;
+  padding-top: 8px;
 }
 @media screen and (min-width: 1200px) {
   #sidebar {
