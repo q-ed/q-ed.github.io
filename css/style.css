@@ -170,7 +170,7 @@ code {
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
-  background-image: url("http://image.flaticon.com/icons/png/128/173/173137.png");
+  background-image: url("/css/images/logo.png");
   -webkit-background-size: 24px 24px;
   -moz-background-size: 24px 24px;
   background-size: 24px 24px;
@@ -893,7 +893,8 @@ a.article-title:hover {
 .article-entry p,
 .article-entry table {
   line-height: 1.6em;
-  margin: 1.6em 0;
+  margin-top: 0.6em;
+  margin-bottom: 1.6em;
 }
 .article-entry h1,
 .article-entry h2,
@@ -901,7 +902,7 @@ a.article-title:hover {
 .article-entry h4,
 .article-entry h5,
 .article-entry h6 {
-  font-weight: bold;
+  font-weight: normal;
 }
 .article-entry h1,
 .article-entry h2,
@@ -910,7 +911,8 @@ a.article-title:hover {
 .article-entry h5,
 .article-entry h6 {
   line-height: 1.3em;
-  margin: 1.3em 0;
+  margin-top: 1.3em;
+  margin-bottom: 0;
 }
 .article-entry a {
   color: #fac15c;
@@ -1623,7 +1625,7 @@ ol.toc {
 }
 .timeline-row .node {
   width: 12px;
-  color: #fff;
+  color: #333;
   height: 12px;
   border-radius: 50%;
   margin: 11px 0 0 -8px;
@@ -1633,6 +1635,7 @@ ol.toc {
 .timeline-row .content {
   margin-left: 25px;
   position: relative;
+  background-color: #111;
 }
 .timeline-row .content:after,
 .timeline-row .content:before {
@@ -1644,7 +1647,7 @@ ol.toc {
   top: 10px;
   left: -14px;
   border: 7px solid transparent;
-  border-right-color: #fff;
+  border-right-color: #111;
 }
 .timeline-row .content:before {
   top: 9px;
@@ -1662,8 +1665,8 @@ ol.toc {
 .timeline-row .content .article-meta {
   font-size: 12px;
   color: #eee;
-  border-top: 1px solid #f7f7f7;
-  background-color: rgba(244,246,247,0.2);
+  border-top: 1px solid #181818;
+  background-color: #111;
 }
 .timeline-row-major .node {
   width: 14px;
@@ -1678,8 +1681,8 @@ ol.toc {
   line-height: 30px;
 }
 #footer {
-  padding-bottom: 6px;
-  border-top: 1px solid #222;
+  padding-bottom: 3px;
+  border-top: 1px solid #111;
   color: #bbb;
   font-size: 18px;
   text-align: left;
@@ -2008,7 +2011,7 @@ ol.toc {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 12px 28px 12px 20px;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 1px solid #444;
   font-family: "Microsoft Yahei Light", "Microsoft Yahei", Helvetica, Arial, sans-serif;
 }
 .ins-close {
@@ -2067,12 +2070,12 @@ ol.toc {
   padding: 8px 15px;
 }
 .ins-section .ins-section-header {
-  color: #f00;
-  border-bottom: 1px solid #e2e2e2;
+  color: #aaa;
+  border-bottom: 1px solid #444;
 }
 .ins-section .ins-slug {
   margin-left: 5px;
-  color: #f00;
+  color: #aaa;
 }
 .ins-section .ins-slug:before {
   content: '(';
@@ -2092,19 +2095,19 @@ ol.toc {
 .ins-section .ins-search-item .ins-search-preview {
   height: 15px;
   font-size: 12px;
-  color: #f00;
+  color: #aaa;
   margin: 5px 0 0 20px;
 }
 .ins-section .ins-search-item:hover,
 .ins-section .ins-search-item.active {
-  color: #fff;
-  background: #006bde;
+  color: #ccc;
+  background: #444;
 }
 .ins-section .ins-search-item:hover .ins-slug,
 .ins-section .ins-search-item.active .ins-slug,
 .ins-section .ins-search-item:hover .ins-search-preview,
 .ins-section .ins-search-item.active .ins-search-preview {
-  color: #fff;
+  color: #ccc;
 }
 .highlight {
   margin: 0px;
